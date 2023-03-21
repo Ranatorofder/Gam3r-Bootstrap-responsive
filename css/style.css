@@ -1,12 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Titillium Web', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Quantico', sans-serif;
+    /* font-family: 'Titillium Web', sans-serif;
+    font-family: 'Ubuntu', sans-serif; */
 
+
+}
+
+
+
+.bg-color {
+    background-color: #031927;
 }
 
 .home-baner {
@@ -16,22 +24,84 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* z-index: -3333333; */
+    /* overflow: hidden; */
+    z-index: -2;
+}
+
+.overlay-home {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100%;
+    overflow: hidden;
+    background: linear-gradient(92deg, rgba(30, 30, 30, 0.6) 0%, rgba(8, 5, 5, 0.6) 0%);
+    /* z-index: -1; */
+
 }
 
 .home-baner-heading {
-    font-size: 9.375rem;
+    font-size: 10vw;
     line-height: 9.0625rem;
+    font-family: 'Quantico', sans-serif;
+}
+
+.text-pera {
+    z-index: -99999;
 }
 
 .battun {
     /* background-color: #007bff; */
-    border: 1px solid red;
-    color: black;
+    border: 1px solid white;
+    background-color: #031927;
+    color: white;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     /* border-radius: 5px; */
+}
+
+.overlay {
+    /* position: fixed; */
+    top: 0 !important;
+    left: 0 !important;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 83%#031927);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-section {
+    background-color: #031927;
+}
+
+.video-player {
+    top: 44.3%;
+    right: 46%;
+}
+
+.responsive-text {
+    color: #353c3f !important;
+    font-family: Quantico, sans-serif !important;
+}
+
+@media (max-width: 576px) {
+    .home-baner-heading {
+        font-size: 7vw;
+        line-height: 5rem;
+
+    }
+
+    .saikel-video {
+        width: 300px;
+        height: 300px;
+
+    }
+
 }

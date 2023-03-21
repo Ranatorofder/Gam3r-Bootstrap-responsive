@@ -11,10 +11,10 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark text-white">
+    <nav class="navbar navbar-expand-lg bg-color fixed-top border-bottom border-danger border-2 text-white">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="images/red_logo_gamer.png" alt="logo" class="d-inline-block align-text-top">
+                <img src="images/Framelogo1.png" alt="logo" class="d-inline-block align-text-top">
 
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -44,41 +44,58 @@
         </div>
     </nav>
 
-    <section class="home-baner pt-4">
-        <div class="container-fluid ">
-            <div class="row ">
+    <section class="home-baner  pt-5 ">
+        <div class="container-fluid pt-5">
+            <div class="row pt-5">
                 <div class="col-md-12 text-white text-center">
-                    <div class="d-flex justify-content-center align-items-center flex-column">
-                        <h1 class="home-baner-heading text-white">BUILD BETTER, <br>PLAY BETTER.</h1>
+                    <div class="overlay-home"></div>
+                    <div class=" d-flex justify-content-center align-items-center flex-column">
+                        <h1 class="z-1 home-baner-heading fw-bolder text-white">BUILD BETTER, <br>PLAY BETTER.
+                        </h1>
                     </div>
-                    <div class="d-flex  justify-content-center align-items-center text-white secondText">
-                        <img class="me-3" src="images/calender.png" alt="">
-                        <h2>NOVEMBER 2ND 2022, UC BERKELEY</h2>
+                    <div class="pt-4 d-flex  justify-content-center align-items-center text-white secondText">
+                        <img class="me-3 z-1" src="images/calender.png" alt="">
+                        <h2 class="z-1">NOVEMBER 2ND 2022, UC BERKELEY</h2>
                     </div>
-                    <div class="d-flex  justify-content-center align-items-center text-white">
-                        <p>A community-led forum tackling the most pressing issues in Web3 <br>
+                    <div class="text-pera pt-5  d-flex  justify-content-center align-items-center text-white">
+                        <p class=" z-1">A community-led forum tackling the most pressing issues in Web3 <br>
                             gaming We aim to shed light on groundbreaking ideas and best practices <br>
                             to propel the future of sustainable game economies.</p>
                     </div>
+                    <div class="pt-4 d-flex text-center justify-content-center align-items-center">
+                        <div class="z-1">
+                            <button
+                                class="text-center  text-white fw-bolder bg-transparent responsive-text border border-white px-3 py-2"
+                                type="submit">LEARN MORE</button>
+                        </div>
+                        <div class="z-1">
+                            <button
+                                class="text-center  text-white fw-bolder text-uppercase bg-transparent ms-3 responsive-text border border-white px-4 py-2"
+                                type="submit">Watch the video </button>
+                        </div>
+                    </div>
+
 
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="py-5">
+    <section class="py-5 bg-color">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 pt-3">
+                <div class="col-md-6 pt-2">
                     <img src="images/about.png" alt="About image" class="img-fluid">
                 </div>
-                <div class="col-md-6">
-                    <h2 class="display-1 fw-bold">
+                <div class="col-md-6 text-white">
+                    <h2 class="display-4  lh-1 fw-bold sm- pt-3">
                         ABOUT GAM3R
                         <br>
                         SUMMIT 2022
                     </h2>
-                    <p>Talks covering industry-leading research and hands-on workshops will alternate with sessions that
+                    <p class="pt-4 ">Talks covering industry-leading research and hands-on workshops will
+                        alternate with
+                        sessions that
                         attempt to break down silos and foster connection and collaboration for attendees..</p>
                     <p>We invite thoughtful contributors and thought leaders to foster meaningful discussions at the
                         event. Please submit your interest to secure your spot and join the best and brightest
@@ -90,7 +107,86 @@
             </div>
         </div>
     </section>
+    <section class="video-section pt-5 bg-color">
+        <div class="container-fluid   pb-5 d-flex justify-content-center align-items-center">
+            <div class="row">
+                <div class="col-md-12 ">
+                    <div class="overlay position-relative">
 
+                        <div class="d-none poster">
+                            <video poster="" src=""></video>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <img class="video-player img-fluid  position-absolute" src="images/play.png" alt="">
+                            <video class="saikel-video" poster="images/thumnail.png"
+                                src="video/production ID_5151347.mp4" controls height="735px"></video>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-color ">
+        <div class="container">
+            <div class="row col-md-12 d-flex justify-content-center align-items-center text-center">
+                <div class="">
+                    <div class="">
+                        <h1 class="display-4  text-white py-5">THANK YOU TO OUR <br>
+                            SUPPORTERS</h1>
+                    </div>
+                    <div class="pt-5">
+                        <img class="img-fluid" src="images/red_logo_gamer.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-color pt-5">
+        <div class="container pt-5">
+            <div class="row pt-5">
+                <div class="col-md-12 pt-5">
+                    <div class="text-center news pt-5">
+
+                        <h2 class="py-5 display-4 text-white ">JOIN OUR NEWSLETTER, <br>
+                            STAY UP-TO-DATE</h2>
+
+                        <div class="pb-3">
+                            <input type="name" value="" placeholder="Enter your Name"
+                                class="text-center bg-color responsive-text border border-white px-5 py-3"> <br>
+
+                        </div>
+                        <div class="pb-3">
+                            <input type="name" value="" placeholder="Enter your Address"
+                                class="text-center bg-color responsive-text border border-white px-5 py-3"> <br>
+
+                        </div>
+                        <div class="pb-3">
+                            <button
+                                class="text-center text-white fw-bold bg-color responsive-text border border-white px-4 py-2"
+                                type="submit">Join our Newsletter</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="py-5 bg-color">
+        <div class="border border-danger"></div>
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-center pt-5">
+                        <img src="images/Framelogo1.png" alt="">
+                        <p class="pt-4 text-white">©2022 GAM3R SUMMIT. All rights reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
